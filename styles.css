@@ -1,0 +1,461 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap');
+
+body {
+    background-color: #111111;
+    font-family: "Montserrat", serif;
+
+}
+
+.navbar {
+    background-color: #111111;
+}
+
+.navbar .navbar-brand {
+    color: #f5f5f7;
+    font-size: 15px;
+    font-weight: 600;
+    opacity: 0.8;
+}
+
+.navbar .navbar-brand:hover {
+    color: #ffffff;
+}
+
+.navbar .navbar-nav .nav-item a {
+    opacity: 0.9;
+    font-weight: 600;
+    font-size: 14px;
+    color: #f5f5f7;
+    margin-left: 25px;
+}
+
+.navbar .navbar-nav .nav-item a:hover {
+    color: #1ACECA;
+    text-decoration: underline;
+}
+
+.landing-sec {
+
+    padding-top: 150px;
+
+    padding-bottom: 100px;
+    padding-left: 50px;
+}
+
+.landing-sec h3 {
+    color: #fAFAFA;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.landing-sec h1 {
+    font-size: 92px;
+    font-weight: 650;
+    
+    color: #fAFAFA;
+}
+
+.landing-sec h1 span {
+    background-image: linear-gradient(to right, #0DBCDC, #285dad);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.landing-sec p {
+    color: #A1A1A1;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.landing-sec .btn {
+    background-image: linear-gradient(to right, #0DBCDC, #285dad);
+    color: #fAFAFA;
+    height: 50px;
+    width: 150px;
+    font-weight: 600;
+    border-radius: 10px;
+
+}
+
+.about-sec {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 50px;
+
+
+}
+
+.about-sec h1 {
+    color: #FAFAFA;
+    font-size: 60px;
+    font-weight: 800;
+}
+
+.about-sec h3 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #1ACECA;
+    padding-top: 50px;
+}
+
+.about-sec h2 {
+    color: #fAFAFA;
+    font-size: 26px;
+    font-weight: 700;
+    padding-top: 5px;
+}
+
+.about-sec table td {
+    color: #f9f9f9;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: #111111;
+}
+
+.about-sec table td span {
+    color: #1ACECA;
+
+}
+
+.about-sec p {
+    color: #f9f9f9;
+    font-weight: 500;
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+.about-sec .btn {
+    background-image: linear-gradient(to right, #0DBCDC, #285dad);
+    color: #fAFAFA;
+    height: 50px;
+    width: 150px;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+.timeline-sec {
+    padding-top: 50px;
+    padding-bottom: 100px;
+    padding-left: 50px;
+
+}
+
+.timeline-sec .heading h1 {
+    color: #fAFAFA;
+    font-size: 60px;
+    font-weight: 700;
+
+
+}
+
+.timeline-sec .content .verticleline {
+    border-left: 1px solid #dee2e6 !important;
+    height: 55px;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.timeline-sec .content .badgele {
+    border-radius: 100%;
+    border: 2px solid #1ACECA;
+    height: 25px;
+    width: 25px;
+
+
+
+}
+
+.timeline-sec .content .card {
+    background-color: #1A1A1A;
+    margin-left: -50px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+
+.timeline-sec .content .card .card-body h4 {
+    color: #FAFAFA;
+    font-size: 15px;
+}
+
+.timeline-sec .content .card .card-body h5 {
+    color: #15D7C8;
+    font-size: 15px;
+}
+
+.timeline-sec .content .card .card-body p {
+    color: #6c757d;
+    font-size: 16px;
+}
+
+.project-sec {
+    padding-top: 50px;
+    padding-bottom: 100px;
+    padding-left: 50px;
+
+
+}
+
+.project-sec .heading h1 {
+    color: #fAFAFA;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.project-sec .content .card {
+    background-color: #1A1A1A;
+    border-radius: 15px;
+    margin-top: 40px;
+    margin-right: 40px;
+}
+
+.project-sec .content .card h5 {
+    color: #15D7C8;
+    font-size: 15px;
+}
+
+.project-sec .content .card a {
+    font-size: 15px;
+    color: #fAFAFA;
+    margin-left: 8px;
+    margin-right: 8px;
+
+}
+
+.project-sec .content .card i:hover {
+    color: #15D7C8;
+}
+
+.project-sec .content .card h3 {
+    font-size: 24px;
+    color: #fAFAFA;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.project-sec .content .card p {
+    font-size: 16px;
+    color: #818181;
+    font-weight: 500;
+}
+
+.project-sec .content .card .badge {
+    background-color: #15D7C8;
+    color: #FAFAFA;
+    margin-right: 5px;
+}
+
+.skills-sec {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 50px;
+
+}
+
+.skills-sec h2 {
+    color: #fAFAFA;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.skills-sec .animate-box .ftco-animate h3 {
+    color: #f9f9f9;
+    font-size: 20px;
+}
+
+.skills-sec .progress {
+    margin-bottom: 50px;
+
+
+}
+
+.contact-sec {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 50px;
+
+
+}
+
+.contact-sec h1 {
+    color: #FAFAFA;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.contact-sec .formsec form {
+    margin-top: 10px;
+}
+
+.contact-sec .formsec form input {
+    color: #fafafa;
+    background-color: transparent;
+    height: 50px;
+    border-radius: 10px;
+    box-shadow: none;
+}
+
+.contact-sec .formsec form input:focus,
+.contact-sec .formsec form textarea:focus {
+    border: 1px solid #0DBCDC;
+}
+
+.contact-sec .formsec form input::placeholder,
+.contact-sec .formsec form textarea::placeholder {
+    color: #fAFAFA;
+    opacity: 0.5;
+}
+
+.contact-sec .formsec form textarea {
+    color: #fAFAFA;
+    background-color: transparent;
+    height: 150px;
+    box-shadow: none;
+    border-radius: 10px;
+
+}
+
+.contact-sec .formsec form button {
+    width: 100%;
+    height: 50px;
+    background-image: linear-gradient(to right, #0DBCDC, #285dad);
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.contact-sec .formsec form .success {
+    color: green;
+}
+
+.contact-sec .formsec form .fail {
+    color: red;
+}
+
+
+
+
+
+.footer h1 {
+    color: #f9f9f9;
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.footer i {
+    color: #A1A1A1;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.footer i:hover {
+    color: #f9f9f9;
+}
+
+.footer p {
+    color: #f9f9f9;
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 50px;
+}
+
+@media (max-width:991px) {
+    .navbar button:focus {
+        box-shadow: none;
+    }
+
+    .navbar button .navbar-toggler-icon {
+        background-color: white;
+
+    }
+
+    .landing-sec h3 {
+        font-size: 18px;
+    }
+
+    .landing-sec h1 {
+        font-size: 72px;
+    }
+
+    .landing-sec p {
+        font-size: 15px;
+    }
+
+}
+
+@media (max-width:576px) {
+    .landing-sec {
+        padding-left: 20px;
+    }
+
+    .about-sec {
+        padding-top: 50px;
+        padding-bottom: 100px;
+        padding-left: 20px;
+
+    }
+
+    .timeline-sec {
+        padding-top: 50px;
+        padding-left: 20px;
+
+    }
+
+    .timeline-sec .content .verticleline {
+        display: none;
+
+
+    }
+
+    .timeline-sec .content .badgele {
+        display: none;
+    }
+
+    .timeline-sec .content .card {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .project-sec {
+        padding-top: 50px;
+        padding-left: 20px;
+    }
+
+    .skills-sec {
+        padding-top: 50px;
+        padding-left: 20px;
+    }
+
+    .contact-sec {
+        padding-top: 50px;
+        padding-left: 20px;
+    }
+
+    .contact-sec h1 {
+        font-size: 50px;
+
+
+    }
+}
+
+@media (max-width:489px) {
+    .landing-sec h3 {
+        font-size: 15px;
+    }
+
+    .landing-sec h1 {
+        font-size: 42px;
+    }
+
+    .landing-sec p {
+        font-size: 13px;
+    }
+
+    .footer i {
+        font-size: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+}
